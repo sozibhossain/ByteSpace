@@ -134,7 +134,7 @@ export function CourseLessons({ course }: { course: Course }) {
             aria-valuemax={100}
             aria-valuenow={percent}
           >
-            <div style={{ width: `${percent}%` }} />
+            <div style={{ transform: `scaleX(${percent / 100})` }} />
           </div>
           <span className="sr-only" role="status">
             {completed.length} of {course.stats.lessonCount} lessons completed

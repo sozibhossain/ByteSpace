@@ -5,6 +5,7 @@ import { Star } from "lucide-react";
 import { useReviews } from "@/hooks/use-catalog";
 import { EmptyState, QueryError } from "@/components/ui/QueryState";
 import type { Course } from "@/types/course";
+import { Reveal } from "@/components/ui/Reveal";
 
 /** Stars always have a text equivalent so color/icon appearance is not the label. */
 export function Stars({ rating, size = 18 }: { rating: number; size?: number }) {
@@ -52,7 +53,7 @@ export function CourseReviews({ course }: { course: Course }) {
               >
                 <div
                   style={{
-                    width: `${course.rating.count ? ((course.rating.distribution[r] || 0) / course.rating.count) * 100 : 0}%`,
+                    transform: `scaleX(${course.rating.count ? (course.rating.distribution[r] || 0) / course.rating.count : 0})`,
                   }}
                 />
               </div>
@@ -100,22 +101,24 @@ export function CourseReviews({ course }: { course: Course }) {
         />
       ) : (
         query.data.slice(0, visibleCount).map((r) => (
-          <article key={r.id} className="review-card">
-            <div className="review-card-header">
-              <div className="creator-avatar-row">
-                <Image src={r.author.avatar} alt="" width={44} height={44} />
-                <div>
-                  <h3 className="font-medium">{r.author.name}</h3>
-                  <small className="muted">{r.author.headline}</small>
+          <Reveal key={r.id}>
+            <article className="review-card">
+              <div className="review-card-header">
+                <div className="creator-avatar-row">
+                  <Image src={r.author.avatar} alt="" width={44} height={44} />
+                  <div>
+                    <h3 className="font-medium">{r.author.name}</h3>
+                    <small className="muted">{r.author.headline}</small>
+                  </div>
                 </div>
+                <time className="muted text-xs" dateTime={r.createdAt}>
+                  {reviewDate(r.createdAt)}
+                </time>
               </div>
-              <time className="muted text-xs" dateTime={r.createdAt}>
-                {reviewDate(r.createdAt)}
-              </time>
-            </div>
-            <Stars rating={r.rating} />
-            <p>“{r.body}”</p>
-          </article>
+              <Stars rating={r.rating} />
+              <p>“{r.body}”</p>
+            </article>
+          </Reveal>
         ))
       )}
       {query.data && query.data.length > visibleCount && (

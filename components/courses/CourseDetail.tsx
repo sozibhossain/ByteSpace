@@ -100,15 +100,17 @@ export function CourseDetail({
                 </Link>
               ))}
             </nav>
-            {courseQuery.isError ? (
-              <QueryError error={courseQuery.error} onRetry={() => void courseQuery.refetch()} />
-            ) : tab === "about" ? (
-              <CourseAbout course={course} />
-            ) : tab === "lessons" ? (
-              <CourseLessons course={course} />
-            ) : (
-              <CourseReviews course={course} />
-            )}
+            <div key={tab} className="course-tab-content">
+              {courseQuery.isError ? (
+                <QueryError error={courseQuery.error} onRetry={() => void courseQuery.refetch()} />
+              ) : tab === "about" ? (
+                <CourseAbout course={course} />
+              ) : tab === "lessons" ? (
+                <CourseLessons course={course} />
+              ) : (
+                <CourseReviews course={course} />
+              )}
+            </div>
           </div>
         </section>
       </main>

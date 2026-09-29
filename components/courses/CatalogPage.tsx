@@ -126,7 +126,11 @@ export function CatalogResults({ creatorId }: { creatorId?: string }) {
         <EmptyState onReset={reset} />
       ) : (
         <>
-          <div className="course-grid" aria-busy={query.isFetching}>
+          <div
+            key={query.data.data.map((course) => course.id).join("|")}
+            className="course-grid catalog-result-content"
+            aria-busy={query.isFetching}
+          >
             {query.data.data.map((course, i) => (
               <Reveal key={course.id} delay={(i % 3) * 0.06}>
                 <CourseCard course={course} />

@@ -15,14 +15,16 @@ export function Shape({
 }) {
   return (
     <div className={`shape ${className}`} aria-hidden>
-      <Image
-        src={`/assets/shapes/${file}.png`}
-        alt=""
-        fill
-        sizes="240px"
-        loading={eager ? "eager" : "lazy"}
-        style={{ objectFit: "contain" }}
-      />
+      <div className="shape-motion ambient-float">
+        <Image
+          src={`/assets/shapes/${file}.png`}
+          alt=""
+          fill
+          sizes="240px"
+          loading={eager ? "eager" : "lazy"}
+          style={{ objectFit: "contain" }}
+        />
+      </div>
     </div>
   );
 }
@@ -33,7 +35,7 @@ export function ProgressStat() {
       <span>Learning Progress</span>
       <strong>55%</strong>
       <div className="progress-track">
-        <div style={{ width: "55%" }} />
+        <div style={{ transform: "scaleX(0.55)" }} />
       </div>
     </div>
   );

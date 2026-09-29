@@ -122,6 +122,16 @@ hover/floating effects. Reduced-motion preferences are respected. Marketing artw
 decorative, while native video controls, semantic forms, focus styles and status regions
 support keyboard and assistive-technology use.
 
+Hero animation lives in `components/home/HomeHero.tsx`; its positioning, entrance and
+ambient layers are separate so centered images keep their existing transforms. CSS
+entrances work before hydration and finish at the original layout. Decorative loops move
+4–8px in total over 5.5–8 seconds, with reduced travel on mobile. Course/profile/auth
+surfaces use short reveals, reviews reveal once, and native lesson disclosures keep their
+keyboard behavior. Progress fills animate `scaleX`, avoiding width animation. Shared
+reveal timings live in `constants/animations.ts`. Reduced motion disables CSS entrances,
+ambient loops and hover transforms; Motion reveals keep server-rendered content visible.
+Mouse-follow glow and parallax are optional and are not enabled in this implementation.
+
 ## Demo boundaries and visual fidelity
 
 No accounts, enrollment, purchases or newsletter subscriptions are created in mock mode.

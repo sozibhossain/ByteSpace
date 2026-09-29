@@ -16,62 +16,12 @@ import {
   Sparkles,
   Zap,
 } from "lucide-react";
-import { Navbar } from "@/components/layout/Navbar";
+import { HomeHero } from "./HomeHero";
 import { Footer } from "@/components/layout/Footer";
-import { SearchForm } from "@/components/courses/SearchForm";
 import { CourseGrid } from "@/components/courses/CourseGrid";
 import { Reveal } from "@/components/ui/Reveal";
 import { CATEGORIES } from "@/constants/catalog";
 import { CourseArtwork, HappyStudents, ProgressStat, Shape } from "@/components/ui/MarketingArt";
-
-/** Desktop-reference hero with a scalable illustration scene and functional search. */
-function HomeHero() {
-  return (
-    <section className="home-hero grid-blue">
-      <Navbar />
-      <div className="container hero-copy">
-        <h1>
-          Get Access to Hundreds
-          <br className="hidden sm:block" /> Courses Available
-        </h1>
-        <p>
-          Unlock your creativity, gain valuable knowledge, and grow your business with our wide
-          range of courses.
-        </p>
-        <SearchForm />
-      </div>
-      <div className="hero-scene" aria-hidden>
-        <div className="hero-dome" />
-        <div className="hero-person">
-          <Image
-            src="/assets/hero/hero-student.png"
-            alt=""
-            fill
-            sizes="(max-width: 540px) 440px, 600px"
-            preload
-          />
-        </div>
-        <div className="floating-stat hero-topic">
-          UI/UX Design
-          <br />
-          <small>200 Courses · 1000+ Students</small>
-        </div>
-        <div className="floating-stat hero-progress">
-          <ProgressStat />
-        </div>
-        <div className="floating-stat hero-students">
-          <HappyStudents />
-        </div>
-      </div>
-      <Shape file="shape-lime-spring-corner" className="shape-spring" />
-      <Shape file="shape-yellow-cylinder" className="shape-cylinder" />
-      <Shape file="shape-white-spring" className="shape-white-small" />
-      <Shape file="shape-white-pyramid" className="shape-pyramid" />
-      <Shape file="shape-white-torus" className="shape-torus" />
-      <Shape file="shape-white-spring-dense" className="shape-white-large" />
-    </section>
-  );
-}
 
 /** Partner marks are typographic placeholders supplied by the reference design. */
 function Partners() {
@@ -136,7 +86,10 @@ function Features() {
             <div className="floating-stat feature-progress">
               <ProgressStat />
             </div>
-            <Shape file="shape-lime-spring" className="feature-spring" />
+            <Shape
+              file="shape-lime-squiggle-vertical"
+              className="feature-spring feature-spring-student"
+            />
           </div>
         </Reveal>
         <Reveal className="feature-row reverse">
@@ -145,8 +98,13 @@ function Features() {
               Total Revenue<small className="block !text-white">July 1–28</small>
               <strong>$120.29</strong>
               <div className="progress-track">
-                <div style={{ width: "55%" }} />
+                <div style={{ transform: "scaleX(0.55)" }} />
               </div>
+            </div>
+            <div className="floating-stat feature-revenue feature-revenue-secondary">
+              <small>Your Net Profit</small>
+              <strong>$1,200.38</strong>
+              <small>+15%</small>
             </div>
             <div className="feature-person">
               <Image src="/assets/features/instructor-female.png" alt="" fill sizes="550px" />
@@ -281,15 +239,20 @@ export function HomePage() {
         <Features />
         <section className="creator-cta grid-blue">
           <Shape file="shape-lime-spring-corner" className="cta-left" />
-          <Shape file="shape-white-spring-dense" className="cta-right" />
+          <Shape file="shape-lime-spring" className="cta-right" />
+          <Shape file="shape-white-spring" className="cta-white-spring" />
+          <Shape file="shape-white-pyramid" className="cta-pyramid" />
+          <Shape file="shape-lime-torus-arch" className="cta-ring" />
+          <Shape file="shape-lime-triangle" className="cta-triangle" />
+          <Shape file="shape-white-cylinder" className="cta-cylinder" />
           <div className="container">
             <Reveal>
               <h2 className="section-heading">Unlock Your Potential as a Creator with ByteSpace</h2>
               <p>
                 Experience the collaboration of numerous creators and an expanding selection of
-                courses. Register now and become a part of a community of local and international
-                creators. Share your expertise and publish your finest course on the ByteSpace
-                Course Library.
+                courses. Register now and become a part of a community comprising over 10,000 local
+                and international creators. Utilize our Course Editor, and showcase your expertise
+                by publishing your finest course on the ByteSpace Course Library.
               </p>
               <Link
                 href="/register"

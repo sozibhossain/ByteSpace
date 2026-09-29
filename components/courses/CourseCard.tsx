@@ -23,6 +23,8 @@ export function AvatarGroup({ overflow = "26+" }: { overflow?: string }) {
 export function CourseCard({ course }: { course: Course }) {
   const creators = useCreators();
   const creator = creators.data?.find((c) => c.id === course.creatorId);
+  // Keep the compact card title from the mockup; the link retains the full course title.
+  const cardTitle = course.title.split(":")[0].trim();
   return (
     <article className="course-card">
       <Link
@@ -45,7 +47,7 @@ export function CourseCard({ course }: { course: Course }) {
       <div className="card-heading">
         <h3>
           <Link href={`/courses/${course.slug}`} title={course.title}>
-            {course.title}
+            {cardTitle}
           </Link>
         </h3>
         <span className="card-rating" aria-label={`${course.rating.average} out of 5 stars`}>

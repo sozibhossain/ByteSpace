@@ -27,7 +27,8 @@
 }
 :root {
   --brand-blue: #003be2;
-  --brand-lime: #cbfc01;
+  --brand-lime: #d4fb20;
+  --brand-accent: #cbfc01;
   --brand-purple: #711ee3;
   --brand-surface: #f5f5f6;
   --brand-white: #fff;
@@ -37,6 +38,7 @@
   --text-slate: #686c74;
   --text-muted: #d1d1d1;
   --border: #d1d1d6;
+  --border-input: #e5e6e8;
   --lime-hover: #b8e600;
   --blue-hover: #0031bd;
   --surface-hover: #ebebef;
@@ -45,9 +47,38 @@
   --family-body: "Satoshi", Arial, sans-serif;
   --container: 1200px;
   --radius-card: 24px;
-  --gradient-feature:
-    radial-gradient(ellipse at 25% 15%, #e8ff9f 0, transparent 45%),
-    radial-gradient(ellipse at 90% 80%, #c8d3f5 0, transparent 45%);
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --float-distance: 3px;
+  --float-duration: 7s;
+  /* Exact Figma glow stops; each layer is positioned per section below. */
+  --glow-lime-soft: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(203, 252, 1, 0.4) 0%,
+    rgba(203, 252, 1, 0.092) 53%,
+    rgba(203, 252, 1, 0.024) 75%,
+    rgba(203, 252, 1, 0) 100%
+  );
+  --glow-lime-strong: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(203, 252, 1, 0.6) 0%,
+    rgba(203, 252, 1, 0.138) 53%,
+    rgba(203, 252, 1, 0.036) 75%,
+    rgba(203, 252, 1, 0) 100%
+  );
+  --glow-blue-soft: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 59, 226, 0.08) 0%,
+    rgba(0, 59, 226, 0.0184) 53%,
+    rgba(0, 59, 226, 0.0048) 75%,
+    rgba(0, 59, 226, 0) 100%
+  );
+  --glow-blue-strong: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 59, 226, 0.24) 0%,
+    rgba(0, 59, 226, 0.0552) 53%,
+    rgba(0, 59, 226, 0.0144) 75%,
+    rgba(0, 59, 226, 0) 100%
+  );
 }
 @theme inline {
   --font-logo: var(--family-logo);
@@ -116,8 +147,8 @@ button {
 .grid-blue {
   background-color: var(--brand-blue);
   background-image:
-    linear-gradient(#ffffff15 1px, transparent 1px),
-    linear-gradient(90deg, #ffffff15 1px, transparent 1px);
+    linear-gradient(#ffffff1f 2px, transparent 2px),
+    linear-gradient(90deg, #ffffff1f 2px, transparent 2px);
   background-size: 120px 120px;
   color: white;
 }
@@ -132,9 +163,6 @@ button {
     background-color 0.2s,
     transform 0.2s,
     box-shadow 0.2s;
-}
-.button:active {
-  transform: scale(0.98);
 }
 .button:disabled {
   opacity: 0.6;
@@ -304,7 +332,7 @@ button {
     box-shadow 0.2s;
 }
 .course-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
   box-shadow: 0 14px 35px #2425280c;
 }
 .card-image {
@@ -345,7 +373,8 @@ button {
   min-width: 0;
   flex: 1;
   font-size: 20px;
-  font-weight: 700;
+  font-family: var(--family-heading);
+  font-weight: 600;
   line-height: 1.3;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -506,13 +535,13 @@ button {
 }
 .hero-dome {
   position: absolute;
-  width: 1180px;
-  height: 560px;
-  border-radius: 50% 50% 0 0;
-  background: var(--brand-lime);
+  /* A clipped circle, not an ellipse: the reference arc stays round at its base. */
+  width: 1160px;
+  height: 1160px;
+  border-radius: 50%;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -115px;
+  bottom: -716px;
 }
 .hero-person {
   position: absolute;
@@ -569,25 +598,30 @@ button {
   background: #e5e5e7;
 }
 .progress-track > div {
-  background: var(--brand-lime);
+  background: var(--brand-accent);
+  width: 100%;
+  transform-origin: left center;
   height: 100%;
   border-radius: inherit;
-  transition: width 0.5s;
+  transition: transform 0.5s;
 }
 .shape {
   position: absolute;
   pointer-events: none;
   z-index: 2;
-  animation: float 7s ease-in-out infinite;
 }
 .shape-spring {
-  width: 210px;
-  height: 300px;
-  left: -40px;
-  top: 285px;
+  width: 360px;
+  height: 390px;
+  left: 0;
+  top: 215px;
+}
+/* This exported shape is cropped on its left edge; anchor it to the section edge. */
+.shape-spring img {
+  object-position: left center;
 }
 .shape-cylinder {
-  width: 210px;
+  width: 260px;
   height: 320px;
   right: -60px;
   top: 250px;
@@ -605,22 +639,16 @@ button {
   top: 485px;
 }
 .shape-torus {
-  width: 245px;
-  height: 245px;
+  width: 270px;
+  height: 270px;
   left: 4%;
   bottom: 55px;
 }
 .shape-white-large {
-  width: 200px;
-  height: 260px;
+  width: 280px;
+  height: 280px;
   right: 4%;
-  bottom: 40px;
-}
-@keyframes float {
-  50% {
-    translate: 0 -12px;
-    rotate: 3deg;
-  }
+  bottom: 55px;
 }
 .partner-strip {
   min-height: 200px;
@@ -647,12 +675,13 @@ button {
   padding: 104px 0 50px;
 }
 .discover-intro {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   text-align: center;
 }
 .discover-intro p {
-  margin: 32px 0 44px;
+  max-width: 960px;
+  margin: 32px auto 44px;
 }
 .category-pills {
   display: flex;
@@ -705,7 +734,21 @@ button {
   place-items: center;
 }
 .features {
-  background: var(--gradient-feature), #fafafa;
+  /* Four soft spots follow the upper/lower corners in the reference artwork. */
+  background-color: #fafafa;
+  background-image:
+    var(--glow-lime-soft), var(--glow-blue-soft), var(--glow-lime-strong), var(--glow-blue-strong);
+  background-size:
+    780px 780px,
+    820px 820px,
+    820px 820px,
+    920px 920px;
+  background-position:
+    left -140px top -260px,
+    right -190px top -220px,
+    left -210px bottom -270px,
+    right -220px bottom -240px;
+  background-repeat: no-repeat;
   padding: 110px 0 100px;
 }
 .feature-row {
@@ -749,6 +792,7 @@ button {
 .feature-person img {
   object-fit: contain;
   object-position: bottom;
+  filter: drop-shadow(0 24px 20px #00000026);
 }
 .feature-art .mini-course {
   position: absolute;
@@ -777,12 +821,26 @@ button {
   width: 140px;
   height: 180px;
 }
+/* Use the complete spring above the progress card, with only its tip overlapping. */
+.feature-spring-student {
+  top: 0;
+  width: 180px;
+  height: 180px;
+  z-index: 5;
+}
 .feature-revenue {
   background: var(--brand-blue);
   color: white;
   top: 45px;
   left: 0;
   width: 210px;
+}
+.feature-revenue-secondary {
+  top: 195px;
+  width: 175px;
+}
+.feature-revenue-secondary small {
+  color: white;
 }
 .feature-revenue strong {
   display: block;
@@ -808,7 +866,7 @@ button {
   position: relative;
   overflow: hidden;
   text-align: center;
-  padding: 90px 0;
+  padding: 102px 0 112px;
 }
 .creator-cta .container {
   position: relative;
@@ -820,23 +878,70 @@ button {
 }
 .creator-cta p {
   max-width: 1040px;
-  margin: 28px auto 36px;
+  margin: 44px auto 36px;
   line-height: 1.7;
 }
 .cta-left {
-  left: -30px;
-  top: -20px;
-  width: 180px;
-  height: 240px;
+  left: 0;
+  top: -4px;
+  width: 295px;
+  height: 250px;
 }
 .cta-right {
-  right: -20px;
-  bottom: -55px;
-  width: 210px;
+  right: 0;
+  bottom: -15px;
+  width: 340px;
   height: 260px;
 }
+.cta-white-spring {
+  left: 13%;
+  top: 20px;
+  width: 185px;
+  height: 190px;
+}
+.cta-pyramid {
+  left: -20px;
+  bottom: 70px;
+  width: 200px;
+  height: 200px;
+}
+.cta-ring {
+  left: 3%;
+  bottom: -25px;
+  width: 360px;
+  height: 200px;
+}
+.cta-triangle {
+  right: 14%;
+  top: 10px;
+  width: 200px;
+  height: 200px;
+}
+.cta-cylinder {
+  right: -20px;
+  top: 15px;
+  width: 300px;
+  height: 320px;
+}
+/* Align the exports' cut edges with the section clip, avoiding visible flat ends. */
+.cta-cylinder img {
+  object-position: right center;
+}
+.cta-right img {
+  object-position: center bottom;
+}
 .testimonials {
-  background: var(--gradient-feature), #fafafa;
+  background-color: #fafafa;
+  background-image: var(--glow-lime-strong), var(--glow-lime-soft), var(--glow-blue-strong);
+  background-size:
+    840px 840px,
+    940px 940px,
+    900px 900px;
+  background-position:
+    center top -340px,
+    right -270px top -180px,
+    left -300px bottom -390px;
+  background-repeat: no-repeat;
   padding: 100px 0 80px;
 }
 .testimonial-intro {
@@ -1313,7 +1418,8 @@ button {
   display: grid;
   grid-template-columns: 1fr 580px;
   gap: 100px;
-  padding-top: 40px;
+  padding-top: 46px;
+  align-items: start;
 }
 .auth-intro h2 {
   font-family: var(--family-heading);
@@ -1324,9 +1430,10 @@ button {
   font-size: 18px;
   line-height: 1.6;
   margin-top: 16px;
+  max-width: 480px;
 }
 .auth-art {
-  height: 650px;
+  height: 590px;
   position: relative;
   margin-top: 50px;
 }
@@ -1346,15 +1453,35 @@ button {
 .auth-art .shape {
   z-index: 4;
 }
-.auth-art .floating-stat {
-  bottom: 30px;
+/* Artwork offsets belong here rather than important utility overrides in JSX. */
+.auth-ring {
+  left: 32px;
+  top: 16px;
+  width: 160px;
+  height: 160px;
+}
+.auth-pyramid {
+  left: 0;
+  bottom: 0;
+  width: 160px;
+  height: 160px;
+}
+.auth-spring {
   right: 0;
+  bottom: 80px;
+  width: 144px;
+  height: 160px;
+}
+.auth-art .floating-stat {
+  bottom: 0;
+  right: 34px;
+  width: 258px;
   background: var(--brand-lime);
 }
 .auth-form-panel {
   background: white;
   border-radius: 28px;
-  padding: 60px 64px;
+  padding: 60px 64px 40px;
   color: var(--text-primary);
   min-height: 785px;
 }
@@ -1376,12 +1503,12 @@ button {
 }
 .form-field > span {
   display: block;
-  font-size: 15px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 6px;
 }
 .form-field input {
   width: 100%;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-input);
   border-radius: 14px;
   padding: 12px 22px;
   font-size: 18px;
@@ -1560,6 +1687,8 @@ button {
   }
   .hero-dome {
     width: 950px;
+    height: 950px;
+    bottom: -600px;
   }
   .hero-topic {
     left: 8%;
@@ -1735,8 +1864,8 @@ button {
   }
   .hero-dome {
     width: 720px;
-    height: 420px;
-    bottom: -65px;
+    height: 720px;
+    bottom: -365px;
   }
   .hero-topic {
     top: 38px;
@@ -2095,6 +2224,233 @@ button {
     font-size: 16px;
   }
 }
+/* Motion vocabulary: short feedback, one-shot entrances, calm decorative loops.
+   Positioning stays on outer elements; only transform/opacity are animated. */
+@keyframes enter-soft {
+  from {
+    opacity: 0;
+    transform: translate3d(0, var(--enter-y, 12px), 0) scale(var(--enter-scale, 1));
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+@keyframes enter-card {
+  from {
+    opacity: 0;
+    transform: translate3d(var(--enter-x, 0px), var(--enter-y, 12px), 0) scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+}
+@keyframes feedback-in {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes ambient-float {
+  from {
+    transform: translateY(calc(-1 * var(--float-distance)));
+  }
+  to {
+    transform: translateY(var(--float-distance));
+  }
+}
+.ambient-float {
+  animation: ambient-float var(--float-duration) ease-in-out var(--float-delay, 0s) infinite
+    alternate backwards;
+}
+.shape-motion {
+  position: absolute;
+  inset: 0;
+}
+.shape:nth-of-type(2n) {
+  --float-duration: 6.5s;
+  --float-distance: 2px;
+}
+.shape:nth-of-type(3n) {
+  --float-duration: 8s;
+  --float-distance: 4px;
+}
+.shape:nth-of-type(4n) {
+  --float-duration: 5.5s;
+}
+
+/* Hero sequence works without JavaScript and ends at the existing design positions. */
+.home-hero > .site-header {
+  --enter-y: -12px;
+  animation: enter-soft 0.6s var(--motion-ease) backwards;
+}
+.hero-copy h1 {
+  --enter-y: 28px;
+  animation: enter-soft 0.7s var(--motion-ease) 0.15s backwards;
+}
+.hero-copy > p {
+  --enter-y: 16px;
+  animation: enter-soft 0.5s var(--motion-ease) 0.35s backwards;
+}
+.hero-copy .search-form {
+  --enter-y: 12px;
+  animation: enter-soft 0.5s var(--motion-ease) 0.45s backwards;
+}
+.hero-person-enter,
+.hero-person-float {
+  position: absolute;
+  inset: 0;
+}
+.hero-person-enter {
+  --enter-y: 20px;
+  --enter-scale: 0.96;
+  animation: enter-soft 0.9s var(--motion-ease) 0.5s backwards;
+}
+.hero-person-float {
+  --float-duration: 6.5s;
+  --float-delay: 1.4s;
+}
+.hero-dome-surface {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--brand-accent);
+  --enter-scale: 0.9;
+  --enter-y: 0px;
+  transform-origin: bottom;
+  animation: enter-soft 0.9s var(--motion-ease) 0.5s backwards;
+}
+.home-hero .hero-stat-position {
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.hero-stat-surface {
+  padding: 16px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px #00000005;
+}
+.hero-stat-enter {
+  animation: enter-card 0.6s var(--motion-ease) var(--stat-delay) backwards;
+}
+.hero-topic {
+  --enter-x: -14px;
+  --enter-y: 0px;
+  --stat-delay: 0.75s;
+  --float-duration: 5.5s;
+  --float-delay: 1.35s;
+}
+.hero-progress {
+  --enter-x: 14px;
+  --enter-y: 0px;
+  --stat-delay: 0.9s;
+  --float-duration: 6.5s;
+  --float-delay: 1.5s;
+}
+.hero-students {
+  --enter-x: -10px;
+  --enter-y: 12px;
+  --stat-delay: 1.05s;
+  --float-duration: 7s;
+  --float-delay: 1.65s;
+}
+.home-hero > .shape {
+  --enter-y: 10px;
+  animation: enter-soft 0.65s var(--motion-ease) var(--shape-delay, 0.85s) backwards;
+  --float-delay: 1.5s;
+}
+.home-hero > .shape:nth-of-type(2n) {
+  --shape-delay: 1s;
+}
+.home-hero > .shape:nth-of-type(3n) {
+  --shape-delay: 1.15s;
+}
+
+/* Route surfaces enter once on mount; queries retain their existing cache and focus. */
+.catalog-hero > .container,
+.creator-profile > .container,
+.course-title-row,
+.auth-intro > h2,
+.auth-intro > p,
+.not-found h1,
+.not-found > .container > p {
+  animation: enter-soft 0.5s var(--motion-ease) backwards;
+}
+.course-badges {
+  animation: enter-soft 0.5s var(--motion-ease) 0.08s backwards;
+}
+.enrollment-card {
+  --enter-y: 10px;
+  animation: enter-soft 0.55s var(--motion-ease) 0.12s backwards;
+}
+.course-tab-content,
+.catalog-result-content {
+  animation: feedback-in 0.22s var(--motion-ease) backwards;
+}
+.feedback,
+.field-error,
+.creator-profile [role="status"] {
+  animation: feedback-in 0.2s ease-out;
+}
+.lesson-module[open] .module-lessons {
+  animation: feedback-in 0.22s ease-out;
+}
+.not-found-number {
+  --float-distance: 2px;
+  animation: ambient-float 8s ease-in-out infinite alternate;
+}
+.pill,
+.filter-control,
+.pagination button,
+.social-button {
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    opacity 0.2s,
+    transform 0.2s;
+}
+.button:not(:disabled):active,
+.social-button:active {
+  transform: scale(0.97);
+}
+@media (hover: hover) and (pointer: fine) {
+  .button:not(:disabled):hover {
+    transform: translateY(-1px);
+  }
+  .home-hero .search-form .button:hover {
+    transform: scale(1.03);
+  }
+  .social-button:hover {
+    transform: translateY(-2px);
+  }
+  .pill:hover,
+  .filter-control:hover {
+    opacity: 0.9;
+  }
+  .course-card:focus-within {
+    box-shadow: 0 14px 35px #2425280c;
+  }
+}
+@media (hover: none) {
+  .course-card:hover,
+  .path-card:hover {
+    transform: none;
+  }
+}
+@media (max-width: 540px) {
+  .hero-stat-surface {
+    padding: 12px;
+  }
+  .home-hero {
+    --float-distance: 2px;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -2105,5 +2461,41 @@ button {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+  /* No delayed invisible content or residual transforms for reduced-motion users. */
+  .ambient-float,
+  .home-hero > .site-header,
+  .hero-copy h1,
+  .hero-copy > p,
+  .hero-copy .search-form,
+  .hero-person-enter,
+  .hero-dome-surface,
+  .hero-stat-enter,
+  .home-hero > .shape,
+  .catalog-hero > .container,
+  .creator-profile > .container,
+  .course-title-row,
+  .course-badges,
+  .enrollment-card,
+  .auth-intro > h2,
+  .auth-intro > p,
+  .not-found-number,
+  .not-found h1,
+  .not-found > .container > p,
+  .course-tab-content,
+  .catalog-result-content,
+  .feedback,
+  .field-error,
+  .creator-profile [role="status"],
+  .lesson-module[open] .module-lessons {
+    animation: none !important;
+  }
+  .button:hover,
+  .button:active,
+  .course-card:hover,
+  .path-card:hover,
+  .social-button:hover,
+  .social-button:active {
+    transform: none !important;
   }
 }

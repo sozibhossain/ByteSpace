@@ -59,9 +59,9 @@ export function AuthPage({ mode }: { mode: "login" | "register" }) {
               <div className="auth-card-front">
                 <CourseArtwork index={2} />
               </div>
-              <Shape file="shape-yellow-torus-arch" className="!left-8 !top-16 !w-40 !h-40" />
-              <Shape eager file="shape-yellow-pyramid" className="!left-0 !bottom-0 !w-40 !h-40" />
-              <Shape file="shape-white-spring" className="!right-0 !bottom-20 !w-36 !h-40" />
+              <Shape file="shape-yellow-torus-arch" className="auth-ring" />
+              <Shape eager file="shape-yellow-pyramid" className="auth-pyramid" />
+              <Shape file="shape-white-spring" className="auth-spring" />
               <div className="floating-stat">
                 <HappyStudents />
               </div>

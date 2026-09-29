@@ -31,3 +31,14 @@ fixing narrow course-card grids. Additional 390-pixel checks covered forms and v
 
 Browser QA includes desktop/mobile layout inspection. This is a functional/visual review,
 not a comprehensive accessibility audit or proof of exact PNG equality.
+
+## Animation update
+
+- Ten routes (including the creators directory) passed overflow checks at 320, 768 and
+  1440 pixels: 30 combinations. Desktop and 390-pixel hero screenshots were inspected.
+- Computed hero styles showed distinct 5.5–8 second loops and 2–4px travel from center;
+  student centering stayed at -300px desktop / -220px mobile.
+- Mobile disclosure still opened and closed with Escape. Lesson completion reached 6%
+  with a `scaleX(0.06)` fill; review loading increased the visible count from four to eight.
+- Reduced-motion behavior was reviewed in CSS and Motion configuration; OS-level
+  reduced-motion emulation was not exercised in this browser session.
