@@ -1,0 +1,228 @@
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&f[]=satoshi@400,500,700&display=swap');
+@import "tailwindcss";
+
+/* ==============================================================================
+ * 1. DESIGN SYSTEM VARIABLES (:root)
+ * ==============================================================================
+ * Centralized design tokens mapped from Figma inspection specifications.
+ */
+:root {
+  /* --------------------------------------------------------------------------
+   * 3 Core Font Families:
+   * - Logo: Clash Display (Bold 700)
+   * - Headings / Large Display: Poppins (SemiBold 600)
+   * - Body / Small Text: Satoshi (Regular 400, Medium 500)
+   * -------------------------------------------------------------------------- */
+  --font-logo: "Clash Display", sans-serif;
+  --font-heading: var(--font-poppins), "Poppins", sans-serif;
+  --font-body: "Satoshi", sans-serif;
+
+  /* --------------------------------------------------------------------------
+   * Palette Colors:
+   * -------------------------------------------------------------------------- */
+  --brand-blue: #003BE2;
+  --brand-lime: #CBFC01;
+  --brand-purple: #711EE3;
+  --brand-surface: #F5F5F6;
+  --brand-white: #FFFFFF;
+  --brand-black: #000000;
+
+  /* --------------------------------------------------------------------------
+   * Text Colors:
+   * -------------------------------------------------------------------------- */
+  --text-primary: #242528;
+  --text-secondary: #4F4F4F;
+  --text-slate: #82868E;        /* Metadata, lesson count, duration, and comments */
+  --text-muted: #D1D1D1;
+  --text-white: #FFFFFF;
+
+  /* --------------------------------------------------------------------------
+   * Gradients & Glow Effects:
+   * -------------------------------------------------------------------------- */
+  --gradient-radial-lime: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(203, 252, 1, 0.4) 0%,
+    rgba(203, 252, 1, 0.092) 53%,
+    rgba(203, 252, 1, 0.024) 75%,
+    rgba(203, 252, 1, 0) 100%
+  );
+
+  --gradient-radial-blue-subtle: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 59, 226, 0.08) 0%,
+    rgba(0, 59, 226, 0.0184) 53%,
+    rgba(0, 59, 226, 0.0048) 75%,
+    rgba(0, 59, 226, 0) 100%
+  );
+
+  --gradient-radial-blue-intense: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 59, 226, 0.24) 0%,
+    rgba(0, 59, 226, 0.0552) 53%,
+    rgba(0, 59, 226, 0.0144) 75%,
+    rgba(0, 59, 226, 0) 100%
+  );
+}
+
+/* ==============================================================================
+ * 2. TAILWIND CSS v4 THEME EXTENSIONS
+ * ==============================================================================
+ */
+@theme {
+  --font-logo: var(--font-logo);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-lime: var(--brand-lime);
+  --color-brand-purple: var(--brand-purple);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-white: var(--brand-white);
+  --color-brand-black: var(--brand-black);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-slate: var(--text-slate);
+  --color-text-muted: var(--text-muted);
+}
+
+/* ==============================================================================
+ * 3. GLOBAL BASE STYLES
+ * ==============================================================================
+ */
+body {
+  background-color: var(--brand-white);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==============================================================================
+ * 4. EXACT FIGMA TYPOGRAPHY UTILITY CLASSES
+ * ==============================================================================
+ */
+
+/**
+ * 1. Logo Text
+ * Clash Display | Bold (700) | 24px | 100% line-height | 0% letter-spacing
+ */
+.text-logo {
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+/**
+ * 2. Hero Primary Display Headline
+ * Poppins | SemiBold (600) | 72px | 120% line-height | -1% letter-spacing | Center
+ */
+.text-display-hero {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: clamp(36px, 6vw, 72px);
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+/**
+ * 3. Section Title / Heading (H2)
+ * Poppins | SemiBold (600) | 44px | 120% line-height | -1% letter-spacing | Center
+ */
+.text-heading-section {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+/**
+ * 4. Card Title / Sub-heading
+ * Satoshi | Medium (500) | 20px | 120% line-height | 0% letter-spacing
+ */
+.text-card-title {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+/**
+ * 5. Section Description / Lead Text
+ * Satoshi | Regular (400) | 18px | 160% line-height | 0% letter-spacing | Center
+ */
+.text-body-lead {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: clamp(15px, 1.2vw, 18px);
+  line-height: 160%;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+/**
+ * 6. Navbar Links, Buttons, and Filter Pills
+ * Satoshi | Medium (500) | 16px | 120% line-height | 0% letter-spacing | Middle
+ */
+.text-nav-medium {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+
+/**
+ * 7. Badges, Status Tags, and Category Labels
+ * Satoshi | Medium (500) | 12px | 120% line-height | 0% letter-spacing | Center
+ */
+.text-badge-medium {
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/**
+ * 8. Caption and Metadata Text (Lessons, Duration, Comments)
+ * Satoshi | Regular (400) | 12px | 160% line-height | 0% letter-spacing
+ */
+.text-caption-regular {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: 0;
+}
+
+/* ==============================================================================
+ * 5. BACKGROUND GLOW & GLASS UTILITIES
+ * ==============================================================================
+ */
+.bg-glow-lime {
+  background: var(--gradient-radial-lime);
+}
+
+.bg-glow-blue-subtle {
+  background: var(--gradient-radial-blue-subtle);
+}
+
+.bg-glow-blue-intense {
+  background: var(--gradient-radial-blue-intense);
+}
+
+.glass-blur-40 {
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(40px);
+}
