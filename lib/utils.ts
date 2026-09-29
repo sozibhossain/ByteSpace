@@ -1,37 +1,28 @@
-/**
- * ==============================================================================
- * UTILITY HELPERS (Class Merger & Common Helpers)
- * ==============================================================================
- * 
- * Provides utility functions adhering to clean code standards.
- */
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 
-type ClassValue = string | number | boolean | undefined | null | { [key: string]: boolean | undefined | null } | ClassValue[];
+/** Resolves conditional classes and Tailwind conflicts for component overrides. */
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
 
-/**
- * Combines and merges class names into a clean single string.
- * Supports conditional strings, numbers, arrays, and objects.
- * 
- * @param inputs - Array of class names or conditional class objects
- * @returns Clean, concatenated class string
- */
-export function cn(...inputs: ClassValue[]): string {
-  const classes: string[] = [];
-
-  for (const input of inputs) {
-    if (!input) continue;
-
-    if (typeof input === "string" || typeof input === "number") {
-      classes.push(String(input));
-    } else if (Array.isArray(input)) {
-      const inner = cn(...input);
-      if (inner) classes.push(inner);
-    } else if (typeof input === "object") {
-      for (const [key, value] of Object.entries(input)) {
-        if (value) classes.push(key);
-      }
-    }
-  }
-
-  return classes.join(" ");
+/** Keep presentation formatting out of fixtures and service contracts. */
+export function durationLabel(minutes: number) {
+  const hours = Math.floor(minutes / 60);
+  const remainder = minutes % 60;
+  return (
+    [
+      hours ? `${hours} ${hours === 1 ? "hour" : "hours"}` : "",
+      remainder ? `${remainder} mins` : "",
+    ]
+      .filter(Boolean)
+      .join(" ") || "0 mins"
+  );
+}
+export function priceLabel(amount: number, currency = "USD") {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency,
+    maximumFractionDigits: 0,
+  }).format(amount);
 }

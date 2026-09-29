@@ -1,0 +1,1722 @@
+[
+  {
+    "id": "course-001",
+    "slug": "learn-figma-from-basic",
+    "title": "Learn Figma from Basic",
+    "subtitle": "Unlock the power of ui/ux design with expert guidance",
+    "category": "UI/UX Design",
+    "level": "beginner",
+    "creatorId": "creator-purepearl",
+    "media": {
+      "thumbnail": "/assets/courses/thumbnails/learn-figma-from-basic.jpg",
+      "previewPoster": "/assets/courses/course-preview-poster.jpg",
+      "previewVideoUrl": "/assets/courses/videos/course-preview-demo.mp4",
+      "gallery": [
+        "/assets/courses/thumbnails/learn-figma-from-basic.jpg",
+        "/assets/courses/thumbnails/build-digital-asset.jpg",
+        "/assets/courses/thumbnails/power-of-big-data.jpg",
+        "/assets/courses/thumbnails/balancing-productivity.jpg"
+      ]
+    },
+    "pricing": {
+      "amount": 25,
+      "currency": "USD",
+      "accessType": "lifetime"
+    },
+    "stats": {
+      "lessonCount": 18,
+      "durationMinutes": 333,
+      "studentCount": 199,
+      "commentCount": 59
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 12,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 8
+      }
+    },
+    "description": [
+      "Embark on an enlightening exploration of ui/ux design with our comprehensive course, \"Learn Figma from Basic\". This transformative learning experience invites you to delve deep into the intricacies of creating impactful work. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide equips you with the skills essential for navigating today's creative landscape.",
+      "In the initial modules, you'll establish a solid foundation by immersing yourself in the fundamental concepts that form the backbone of ui/ux design. Understand the essential elements and gain proficiency in leveraging these elements to communicate effectively.",
+      "As you progress through the course, you'll ascend to higher levels of expertise. Uncover practical techniques through guided projects, hands-on exercises, and thoughtful examples that help you apply these principles in real scenarios."
+    ],
+    "keyPoints": [
+      "Foundational Concepts",
+      "Design Principles Mastery",
+      "Advanced Techniques in Digital Creation",
+      "Project Showcase and Critique",
+      "Optimizing for Various Platforms",
+      "Digital Asset Management Best Practices",
+      "Monetization Strategies",
+      "Capstone Project: Building Your Portfolio"
+    ],
+    "includedFeatures": [
+      "Learning Resources",
+      "Quality Lesson Videos",
+      "Certificate of Completion",
+      "Private Consultation"
+    ],
+    "modules": [
+      {
+        "id": "learn-figma-from-basic-module-1",
+        "title": "Introduction and Foundations",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "learn-figma-from-basic-lesson-1",
+            "title": "Introduction and Foundations",
+            "durationMinutes": 12,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-2",
+            "title": "Guided practical exercise",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-3",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "learn-figma-from-basic-module-2",
+        "title": "Design Principles for Impact",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "learn-figma-from-basic-lesson-4",
+            "title": "Design Principles for Impact",
+            "durationMinutes": 13,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-5",
+            "title": "Guided practical exercise",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-6",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "learn-figma-from-basic-module-3",
+        "title": "Tools and Techniques",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "learn-figma-from-basic-lesson-7",
+            "title": "Tools and Techniques",
+            "durationMinutes": 14,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-8",
+            "title": "Guided practical exercise",
+            "durationMinutes": 18,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-9",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 22,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "learn-figma-from-basic-module-4",
+        "title": "User-Centric Design Strategies",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "learn-figma-from-basic-lesson-10",
+            "title": "User-Centric Design Strategies",
+            "durationMinutes": 15,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-11",
+            "title": "Guided practical exercise",
+            "durationMinutes": 19,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-12",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 23,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "learn-figma-from-basic-module-5",
+        "title": "Interactive Media and Engagement",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "learn-figma-from-basic-lesson-13",
+            "title": "Interactive Media and Engagement",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-14",
+            "title": "Guided practical exercise",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-15",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 24,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "learn-figma-from-basic-module-6",
+        "title": "Project Showcase and Critique",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "learn-figma-from-basic-lesson-16",
+            "title": "Project Showcase and Critique",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-17",
+            "title": "Guided practical exercise",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "learn-figma-from-basic-lesson-18",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 25,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-002",
+    "slug": "build-digital-asset",
+    "title": "Build Digital Asset: A Comprehensive Guide",
+    "subtitle": "Unlock the power of digital illustration with expert guidance",
+    "category": "Digital Illustration",
+    "level": "intermediate",
+    "creatorId": "creator-purepearl",
+    "media": {
+      "thumbnail": "/assets/courses/thumbnails/build-digital-asset.jpg",
+      "previewPoster": "/assets/courses/course-preview-poster.jpg",
+      "previewVideoUrl": "/assets/courses/videos/course-preview-demo.mp4",
+      "gallery": [
+        "/assets/courses/thumbnails/learn-figma-from-basic.jpg",
+        "/assets/courses/thumbnails/build-digital-asset.jpg",
+        "/assets/courses/thumbnails/power-of-big-data.jpg",
+        "/assets/courses/thumbnails/balancing-productivity.jpg"
+      ]
+    },
+    "pricing": {
+      "amount": 25,
+      "currency": "USD",
+      "accessType": "lifetime"
+    },
+    "stats": {
+      "lessonCount": 18,
+      "durationMinutes": 333,
+      "studentCount": 226,
+      "commentCount": 62
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 12,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 8
+      }
+    },
+    "description": [
+      "Embark on an enlightening exploration of digital illustration with our comprehensive course, \"Build Digital Asset: A Comprehensive Guide\". This transformative learning experience invites you to delve deep into the intricacies of creating impactful work. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide equips you with the skills essential for navigating today's creative landscape.",
+      "In the initial modules, you'll establish a solid foundation by immersing yourself in the fundamental concepts that form the backbone of digital illustration. Understand the essential elements and gain proficiency in leveraging these elements to communicate effectively.",
+      "As you progress through the course, you'll ascend to higher levels of expertise. Uncover practical techniques through guided projects, hands-on exercises, and thoughtful examples that help you apply these principles in real scenarios."
+    ],
+    "keyPoints": [
+      "Foundational Concepts",
+      "Design Principles Mastery",
+      "Advanced Techniques in Digital Creation",
+      "Project Showcase and Critique",
+      "Optimizing for Various Platforms",
+      "Digital Asset Management Best Practices",
+      "Monetization Strategies",
+      "Capstone Project: Building Your Portfolio"
+    ],
+    "includedFeatures": [
+      "Learning Resources",
+      "Quality Lesson Videos",
+      "Certificate of Completion",
+      "Private Consultation"
+    ],
+    "modules": [
+      {
+        "id": "build-digital-asset-module-1",
+        "title": "Introduction and Foundations",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "build-digital-asset-lesson-1",
+            "title": "Introduction and Foundations",
+            "durationMinutes": 12,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-2",
+            "title": "Guided practical exercise",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-3",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "build-digital-asset-module-2",
+        "title": "Design Principles for Impact",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "build-digital-asset-lesson-4",
+            "title": "Design Principles for Impact",
+            "durationMinutes": 13,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-5",
+            "title": "Guided practical exercise",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-6",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "build-digital-asset-module-3",
+        "title": "Tools and Techniques",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "build-digital-asset-lesson-7",
+            "title": "Tools and Techniques",
+            "durationMinutes": 14,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-8",
+            "title": "Guided practical exercise",
+            "durationMinutes": 18,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-9",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 22,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "build-digital-asset-module-4",
+        "title": "User-Centric Design Strategies",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "build-digital-asset-lesson-10",
+            "title": "User-Centric Design Strategies",
+            "durationMinutes": 15,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-11",
+            "title": "Guided practical exercise",
+            "durationMinutes": 19,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-12",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 23,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "build-digital-asset-module-5",
+        "title": "Interactive Media and Engagement",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "build-digital-asset-lesson-13",
+            "title": "Interactive Media and Engagement",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-14",
+            "title": "Guided practical exercise",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-15",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 24,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "build-digital-asset-module-6",
+        "title": "Project Showcase and Critique",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "build-digital-asset-lesson-16",
+            "title": "Project Showcase and Critique",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-17",
+            "title": "Guided practical exercise",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "build-digital-asset-lesson-18",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 25,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-003",
+    "slug": "power-of-big-data",
+    "title": "The Power of Big Data",
+    "subtitle": "Unlock the power of data science with expert guidance",
+    "category": "Data Science",
+    "level": "beginner",
+    "creatorId": "creator-purepearl",
+    "media": {
+      "thumbnail": "/assets/courses/thumbnails/power-of-big-data.jpg",
+      "previewPoster": "/assets/courses/course-preview-poster.jpg",
+      "previewVideoUrl": "/assets/courses/videos/course-preview-demo.mp4",
+      "gallery": [
+        "/assets/courses/thumbnails/learn-figma-from-basic.jpg",
+        "/assets/courses/thumbnails/build-digital-asset.jpg",
+        "/assets/courses/thumbnails/power-of-big-data.jpg",
+        "/assets/courses/thumbnails/balancing-productivity.jpg"
+      ]
+    },
+    "pricing": {
+      "amount": 25,
+      "currency": "USD",
+      "accessType": "lifetime"
+    },
+    "stats": {
+      "lessonCount": 18,
+      "durationMinutes": 333,
+      "studentCount": 253,
+      "commentCount": 65
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 12,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 8
+      }
+    },
+    "description": [
+      "Embark on an enlightening exploration of data science with our comprehensive course, \"The Power of Big Data\". This transformative learning experience invites you to delve deep into the intricacies of creating impactful work. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide equips you with the skills essential for navigating today's creative landscape.",
+      "In the initial modules, you'll establish a solid foundation by immersing yourself in the fundamental concepts that form the backbone of data science. Understand the essential elements and gain proficiency in leveraging these elements to communicate effectively.",
+      "As you progress through the course, you'll ascend to higher levels of expertise. Uncover practical techniques through guided projects, hands-on exercises, and thoughtful examples that help you apply these principles in real scenarios."
+    ],
+    "keyPoints": [
+      "Foundational Concepts",
+      "Design Principles Mastery",
+      "Advanced Techniques in Digital Creation",
+      "Project Showcase and Critique",
+      "Optimizing for Various Platforms",
+      "Digital Asset Management Best Practices",
+      "Monetization Strategies",
+      "Capstone Project: Building Your Portfolio"
+    ],
+    "includedFeatures": [
+      "Learning Resources",
+      "Quality Lesson Videos",
+      "Certificate of Completion",
+      "Private Consultation"
+    ],
+    "modules": [
+      {
+        "id": "power-of-big-data-module-1",
+        "title": "Introduction and Foundations",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "power-of-big-data-lesson-1",
+            "title": "Introduction and Foundations",
+            "durationMinutes": 12,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-2",
+            "title": "Guided practical exercise",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-3",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "power-of-big-data-module-2",
+        "title": "Design Principles for Impact",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "power-of-big-data-lesson-4",
+            "title": "Design Principles for Impact",
+            "durationMinutes": 13,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-5",
+            "title": "Guided practical exercise",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-6",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "power-of-big-data-module-3",
+        "title": "Tools and Techniques",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "power-of-big-data-lesson-7",
+            "title": "Tools and Techniques",
+            "durationMinutes": 14,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-8",
+            "title": "Guided practical exercise",
+            "durationMinutes": 18,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-9",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 22,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "power-of-big-data-module-4",
+        "title": "User-Centric Design Strategies",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "power-of-big-data-lesson-10",
+            "title": "User-Centric Design Strategies",
+            "durationMinutes": 15,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-11",
+            "title": "Guided practical exercise",
+            "durationMinutes": 19,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-12",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 23,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "power-of-big-data-module-5",
+        "title": "Interactive Media and Engagement",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "power-of-big-data-lesson-13",
+            "title": "Interactive Media and Engagement",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-14",
+            "title": "Guided practical exercise",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-15",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 24,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "power-of-big-data-module-6",
+        "title": "Project Showcase and Critique",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "power-of-big-data-lesson-16",
+            "title": "Project Showcase and Critique",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-17",
+            "title": "Guided practical exercise",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "power-of-big-data-lesson-18",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 25,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-004",
+    "slug": "balancing-productivity",
+    "title": "Balancing Productivity and Creativity",
+    "subtitle": "Unlock the power of productivity with expert guidance",
+    "category": "Productivity",
+    "level": "beginner",
+    "creatorId": "creator-purepearl",
+    "media": {
+      "thumbnail": "/assets/courses/thumbnails/balancing-productivity.jpg",
+      "previewPoster": "/assets/courses/course-preview-poster.jpg",
+      "previewVideoUrl": "/assets/courses/videos/course-preview-demo.mp4",
+      "gallery": [
+        "/assets/courses/thumbnails/learn-figma-from-basic.jpg",
+        "/assets/courses/thumbnails/build-digital-asset.jpg",
+        "/assets/courses/thumbnails/power-of-big-data.jpg",
+        "/assets/courses/thumbnails/balancing-productivity.jpg"
+      ]
+    },
+    "pricing": {
+      "amount": 25,
+      "currency": "USD",
+      "accessType": "lifetime"
+    },
+    "stats": {
+      "lessonCount": 18,
+      "durationMinutes": 333,
+      "studentCount": 280,
+      "commentCount": 68
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 12,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 8
+      }
+    },
+    "description": [
+      "Embark on an enlightening exploration of productivity with our comprehensive course, \"Balancing Productivity and Creativity\". This transformative learning experience invites you to delve deep into the intricacies of creating impactful work. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide equips you with the skills essential for navigating today's creative landscape.",
+      "In the initial modules, you'll establish a solid foundation by immersing yourself in the fundamental concepts that form the backbone of productivity. Understand the essential elements and gain proficiency in leveraging these elements to communicate effectively.",
+      "As you progress through the course, you'll ascend to higher levels of expertise. Uncover practical techniques through guided projects, hands-on exercises, and thoughtful examples that help you apply these principles in real scenarios."
+    ],
+    "keyPoints": [
+      "Foundational Concepts",
+      "Design Principles Mastery",
+      "Advanced Techniques in Digital Creation",
+      "Project Showcase and Critique",
+      "Optimizing for Various Platforms",
+      "Digital Asset Management Best Practices",
+      "Monetization Strategies",
+      "Capstone Project: Building Your Portfolio"
+    ],
+    "includedFeatures": [
+      "Learning Resources",
+      "Quality Lesson Videos",
+      "Certificate of Completion",
+      "Private Consultation"
+    ],
+    "modules": [
+      {
+        "id": "balancing-productivity-module-1",
+        "title": "Introduction and Foundations",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "balancing-productivity-lesson-1",
+            "title": "Introduction and Foundations",
+            "durationMinutes": 12,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-2",
+            "title": "Guided practical exercise",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-3",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "balancing-productivity-module-2",
+        "title": "Design Principles for Impact",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "balancing-productivity-lesson-4",
+            "title": "Design Principles for Impact",
+            "durationMinutes": 13,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-5",
+            "title": "Guided practical exercise",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-6",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "balancing-productivity-module-3",
+        "title": "Tools and Techniques",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "balancing-productivity-lesson-7",
+            "title": "Tools and Techniques",
+            "durationMinutes": 14,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-8",
+            "title": "Guided practical exercise",
+            "durationMinutes": 18,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-9",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 22,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "balancing-productivity-module-4",
+        "title": "User-Centric Design Strategies",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "balancing-productivity-lesson-10",
+            "title": "User-Centric Design Strategies",
+            "durationMinutes": 15,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-11",
+            "title": "Guided practical exercise",
+            "durationMinutes": 19,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-12",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 23,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "balancing-productivity-module-5",
+        "title": "Interactive Media and Engagement",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "balancing-productivity-lesson-13",
+            "title": "Interactive Media and Engagement",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-14",
+            "title": "Guided practical exercise",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-15",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 24,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "balancing-productivity-module-6",
+        "title": "Project Showcase and Critique",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "balancing-productivity-lesson-16",
+            "title": "Project Showcase and Critique",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-17",
+            "title": "Guided practical exercise",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "balancing-productivity-lesson-18",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 25,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-005",
+    "slug": "mastering-money-management",
+    "title": "Mastering Money Management",
+    "subtitle": "Unlock the power of freelance & entrepreneurship with expert guidance",
+    "category": "Freelance & Entrepreneurship",
+    "level": "intermediate",
+    "creatorId": "creator-purepearl",
+    "media": {
+      "thumbnail": "/assets/courses/thumbnails/mastering-money-management.jpg",
+      "previewPoster": "/assets/courses/course-preview-poster.jpg",
+      "previewVideoUrl": "/assets/courses/videos/course-preview-demo.mp4",
+      "gallery": [
+        "/assets/courses/thumbnails/learn-figma-from-basic.jpg",
+        "/assets/courses/thumbnails/build-digital-asset.jpg",
+        "/assets/courses/thumbnails/power-of-big-data.jpg",
+        "/assets/courses/thumbnails/balancing-productivity.jpg"
+      ]
+    },
+    "pricing": {
+      "amount": 25,
+      "currency": "USD",
+      "accessType": "lifetime"
+    },
+    "stats": {
+      "lessonCount": 18,
+      "durationMinutes": 333,
+      "studentCount": 307,
+      "commentCount": 71
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 12,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 8
+      }
+    },
+    "description": [
+      "Embark on an enlightening exploration of freelance & entrepreneurship with our comprehensive course, \"Mastering Money Management\". This transformative learning experience invites you to delve deep into the intricacies of creating impactful work. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide equips you with the skills essential for navigating today's creative landscape.",
+      "In the initial modules, you'll establish a solid foundation by immersing yourself in the fundamental concepts that form the backbone of freelance & entrepreneurship. Understand the essential elements and gain proficiency in leveraging these elements to communicate effectively.",
+      "As you progress through the course, you'll ascend to higher levels of expertise. Uncover practical techniques through guided projects, hands-on exercises, and thoughtful examples that help you apply these principles in real scenarios."
+    ],
+    "keyPoints": [
+      "Foundational Concepts",
+      "Design Principles Mastery",
+      "Advanced Techniques in Digital Creation",
+      "Project Showcase and Critique",
+      "Optimizing for Various Platforms",
+      "Digital Asset Management Best Practices",
+      "Monetization Strategies",
+      "Capstone Project: Building Your Portfolio"
+    ],
+    "includedFeatures": [
+      "Learning Resources",
+      "Quality Lesson Videos",
+      "Certificate of Completion",
+      "Private Consultation"
+    ],
+    "modules": [
+      {
+        "id": "mastering-money-management-module-1",
+        "title": "Introduction and Foundations",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "mastering-money-management-lesson-1",
+            "title": "Introduction and Foundations",
+            "durationMinutes": 12,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-2",
+            "title": "Guided practical exercise",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-3",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "mastering-money-management-module-2",
+        "title": "Design Principles for Impact",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "mastering-money-management-lesson-4",
+            "title": "Design Principles for Impact",
+            "durationMinutes": 13,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-5",
+            "title": "Guided practical exercise",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-6",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "mastering-money-management-module-3",
+        "title": "Tools and Techniques",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "mastering-money-management-lesson-7",
+            "title": "Tools and Techniques",
+            "durationMinutes": 14,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-8",
+            "title": "Guided practical exercise",
+            "durationMinutes": 18,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-9",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 22,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "mastering-money-management-module-4",
+        "title": "User-Centric Design Strategies",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "mastering-money-management-lesson-10",
+            "title": "User-Centric Design Strategies",
+            "durationMinutes": 15,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-11",
+            "title": "Guided practical exercise",
+            "durationMinutes": 19,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-12",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 23,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "mastering-money-management-module-5",
+        "title": "Interactive Media and Engagement",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "mastering-money-management-lesson-13",
+            "title": "Interactive Media and Engagement",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-14",
+            "title": "Guided practical exercise",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-15",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 24,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "mastering-money-management-module-6",
+        "title": "Project Showcase and Critique",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "mastering-money-management-lesson-16",
+            "title": "Project Showcase and Critique",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-17",
+            "title": "Guided practical exercise",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "mastering-money-management-lesson-18",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 25,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-006",
+    "slug": "from-idea-to-startup",
+    "title": "From Idea to Startup Success",
+    "subtitle": "Unlock the power of marketing with expert guidance",
+    "category": "Marketing",
+    "level": "beginner",
+    "creatorId": "creator-purepearl",
+    "media": {
+      "thumbnail": "/assets/courses/thumbnails/from-idea-to-startup.jpg",
+      "previewPoster": "/assets/courses/course-preview-poster.jpg",
+      "previewVideoUrl": "/assets/courses/videos/course-preview-demo.mp4",
+      "gallery": [
+        "/assets/courses/thumbnails/learn-figma-from-basic.jpg",
+        "/assets/courses/thumbnails/build-digital-asset.jpg",
+        "/assets/courses/thumbnails/power-of-big-data.jpg",
+        "/assets/courses/thumbnails/balancing-productivity.jpg"
+      ]
+    },
+    "pricing": {
+      "amount": 25,
+      "currency": "USD",
+      "accessType": "lifetime"
+    },
+    "stats": {
+      "lessonCount": 18,
+      "durationMinutes": 333,
+      "studentCount": 334,
+      "commentCount": 74
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 12,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 8
+      }
+    },
+    "description": [
+      "Embark on an enlightening exploration of marketing with our comprehensive course, \"From Idea to Startup Success\". This transformative learning experience invites you to delve deep into the intricacies of creating impactful work. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide equips you with the skills essential for navigating today's creative landscape.",
+      "In the initial modules, you'll establish a solid foundation by immersing yourself in the fundamental concepts that form the backbone of marketing. Understand the essential elements and gain proficiency in leveraging these elements to communicate effectively.",
+      "As you progress through the course, you'll ascend to higher levels of expertise. Uncover practical techniques through guided projects, hands-on exercises, and thoughtful examples that help you apply these principles in real scenarios."
+    ],
+    "keyPoints": [
+      "Foundational Concepts",
+      "Design Principles Mastery",
+      "Advanced Techniques in Digital Creation",
+      "Project Showcase and Critique",
+      "Optimizing for Various Platforms",
+      "Digital Asset Management Best Practices",
+      "Monetization Strategies",
+      "Capstone Project: Building Your Portfolio"
+    ],
+    "includedFeatures": [
+      "Learning Resources",
+      "Quality Lesson Videos",
+      "Certificate of Completion",
+      "Private Consultation"
+    ],
+    "modules": [
+      {
+        "id": "from-idea-to-startup-module-1",
+        "title": "Introduction and Foundations",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "from-idea-to-startup-lesson-1",
+            "title": "Introduction and Foundations",
+            "durationMinutes": 12,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-2",
+            "title": "Guided practical exercise",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-3",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "from-idea-to-startup-module-2",
+        "title": "Design Principles for Impact",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "from-idea-to-startup-lesson-4",
+            "title": "Design Principles for Impact",
+            "durationMinutes": 13,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-5",
+            "title": "Guided practical exercise",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-6",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "from-idea-to-startup-module-3",
+        "title": "Tools and Techniques",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "from-idea-to-startup-lesson-7",
+            "title": "Tools and Techniques",
+            "durationMinutes": 14,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-8",
+            "title": "Guided practical exercise",
+            "durationMinutes": 18,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-9",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 22,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "from-idea-to-startup-module-4",
+        "title": "User-Centric Design Strategies",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "from-idea-to-startup-lesson-10",
+            "title": "User-Centric Design Strategies",
+            "durationMinutes": 15,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-11",
+            "title": "Guided practical exercise",
+            "durationMinutes": 19,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-12",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 23,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "from-idea-to-startup-module-5",
+        "title": "Interactive Media and Engagement",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "from-idea-to-startup-lesson-13",
+            "title": "Interactive Media and Engagement",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-14",
+            "title": "Guided practical exercise",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-15",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 24,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "from-idea-to-startup-module-6",
+        "title": "Project Showcase and Critique",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "from-idea-to-startup-lesson-16",
+            "title": "Project Showcase and Critique",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-17",
+            "title": "Guided practical exercise",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "from-idea-to-startup-lesson-18",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 25,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-007",
+    "slug": "creative-web-development",
+    "title": "Creative Web Development",
+    "subtitle": "Unlock the power of web development with expert guidance",
+    "category": "Web Development",
+    "level": "advanced",
+    "creatorId": "creator-purepearl",
+    "media": {
+      "thumbnail": "/assets/hero/hero-student.png",
+      "previewPoster": "/assets/courses/course-preview-poster.jpg",
+      "previewVideoUrl": "/assets/courses/videos/course-preview-demo.mp4",
+      "gallery": [
+        "/assets/courses/thumbnails/learn-figma-from-basic.jpg",
+        "/assets/courses/thumbnails/build-digital-asset.jpg",
+        "/assets/courses/thumbnails/power-of-big-data.jpg",
+        "/assets/courses/thumbnails/balancing-productivity.jpg"
+      ]
+    },
+    "pricing": {
+      "amount": 39,
+      "currency": "USD",
+      "accessType": "lifetime"
+    },
+    "stats": {
+      "lessonCount": 18,
+      "durationMinutes": 333,
+      "studentCount": 361,
+      "commentCount": 77
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 12,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 8
+      }
+    },
+    "description": [
+      "Embark on an enlightening exploration of web development with our comprehensive course, \"Creative Web Development\". This transformative learning experience invites you to delve deep into the intricacies of creating impactful work. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide equips you with the skills essential for navigating today's creative landscape.",
+      "In the initial modules, you'll establish a solid foundation by immersing yourself in the fundamental concepts that form the backbone of web development. Understand the essential elements and gain proficiency in leveraging these elements to communicate effectively.",
+      "As you progress through the course, you'll ascend to higher levels of expertise. Uncover practical techniques through guided projects, hands-on exercises, and thoughtful examples that help you apply these principles in real scenarios."
+    ],
+    "keyPoints": [
+      "Foundational Concepts",
+      "Design Principles Mastery",
+      "Advanced Techniques in Digital Creation",
+      "Project Showcase and Critique",
+      "Optimizing for Various Platforms",
+      "Digital Asset Management Best Practices",
+      "Monetization Strategies",
+      "Capstone Project: Building Your Portfolio"
+    ],
+    "includedFeatures": [
+      "Learning Resources",
+      "Quality Lesson Videos",
+      "Certificate of Completion",
+      "Private Consultation"
+    ],
+    "modules": [
+      {
+        "id": "creative-web-development-module-1",
+        "title": "Introduction and Foundations",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "creative-web-development-lesson-1",
+            "title": "Introduction and Foundations",
+            "durationMinutes": 12,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-2",
+            "title": "Guided practical exercise",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-3",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "creative-web-development-module-2",
+        "title": "Design Principles for Impact",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "creative-web-development-lesson-4",
+            "title": "Design Principles for Impact",
+            "durationMinutes": 13,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-5",
+            "title": "Guided practical exercise",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-6",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "creative-web-development-module-3",
+        "title": "Tools and Techniques",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "creative-web-development-lesson-7",
+            "title": "Tools and Techniques",
+            "durationMinutes": 14,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-8",
+            "title": "Guided practical exercise",
+            "durationMinutes": 18,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-9",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 22,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "creative-web-development-module-4",
+        "title": "User-Centric Design Strategies",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "creative-web-development-lesson-10",
+            "title": "User-Centric Design Strategies",
+            "durationMinutes": 15,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-11",
+            "title": "Guided practical exercise",
+            "durationMinutes": 19,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-12",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 23,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "creative-web-development-module-5",
+        "title": "Interactive Media and Engagement",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "creative-web-development-lesson-13",
+            "title": "Interactive Media and Engagement",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-14",
+            "title": "Guided practical exercise",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-15",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 24,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "creative-web-development-module-6",
+        "title": "Project Showcase and Critique",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "creative-web-development-lesson-16",
+            "title": "Project Showcase and Critique",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-17",
+            "title": "Guided practical exercise",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "creative-web-development-lesson-18",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 25,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "course-008",
+    "slug": "create-and-teach",
+    "title": "Create & Teach Your First Course",
+    "subtitle": "Unlock the power of creative marketing with expert guidance",
+    "category": "Creative Marketing",
+    "level": "beginner",
+    "creatorId": "creator-purepearl",
+    "media": {
+      "thumbnail": "/assets/features/instructor-female.png",
+      "previewPoster": "/assets/courses/course-preview-poster.jpg",
+      "previewVideoUrl": "/assets/courses/videos/course-preview-demo.mp4",
+      "gallery": [
+        "/assets/courses/thumbnails/learn-figma-from-basic.jpg",
+        "/assets/courses/thumbnails/build-digital-asset.jpg",
+        "/assets/courses/thumbnails/power-of-big-data.jpg",
+        "/assets/courses/thumbnails/balancing-productivity.jpg"
+      ]
+    },
+    "pricing": {
+      "amount": 29,
+      "currency": "USD",
+      "accessType": "lifetime"
+    },
+    "stats": {
+      "lessonCount": 18,
+      "durationMinutes": 333,
+      "studentCount": 388,
+      "commentCount": 80
+    },
+    "rating": {
+      "average": 4.6,
+      "count": 12,
+      "distribution": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 8
+      }
+    },
+    "description": [
+      "Embark on an enlightening exploration of creative marketing with our comprehensive course, \"Create & Teach Your First Course\". This transformative learning experience invites you to delve deep into the intricacies of creating impactful work. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide equips you with the skills essential for navigating today's creative landscape.",
+      "In the initial modules, you'll establish a solid foundation by immersing yourself in the fundamental concepts that form the backbone of creative marketing. Understand the essential elements and gain proficiency in leveraging these elements to communicate effectively.",
+      "As you progress through the course, you'll ascend to higher levels of expertise. Uncover practical techniques through guided projects, hands-on exercises, and thoughtful examples that help you apply these principles in real scenarios."
+    ],
+    "keyPoints": [
+      "Foundational Concepts",
+      "Design Principles Mastery",
+      "Advanced Techniques in Digital Creation",
+      "Project Showcase and Critique",
+      "Optimizing for Various Platforms",
+      "Digital Asset Management Best Practices",
+      "Monetization Strategies",
+      "Capstone Project: Building Your Portfolio"
+    ],
+    "includedFeatures": [
+      "Learning Resources",
+      "Quality Lesson Videos",
+      "Certificate of Completion",
+      "Private Consultation"
+    ],
+    "modules": [
+      {
+        "id": "create-and-teach-module-1",
+        "title": "Introduction and Foundations",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "create-and-teach-lesson-1",
+            "title": "Introduction and Foundations",
+            "durationMinutes": 12,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-2",
+            "title": "Guided practical exercise",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-3",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "create-and-teach-module-2",
+        "title": "Design Principles for Impact",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "create-and-teach-lesson-4",
+            "title": "Design Principles for Impact",
+            "durationMinutes": 13,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-5",
+            "title": "Guided practical exercise",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-6",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "create-and-teach-module-3",
+        "title": "Tools and Techniques",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "create-and-teach-lesson-7",
+            "title": "Tools and Techniques",
+            "durationMinutes": 14,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-8",
+            "title": "Guided practical exercise",
+            "durationMinutes": 18,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-9",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 22,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "create-and-teach-module-4",
+        "title": "User-Centric Design Strategies",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "create-and-teach-lesson-10",
+            "title": "User-Centric Design Strategies",
+            "durationMinutes": 15,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-11",
+            "title": "Guided practical exercise",
+            "durationMinutes": 19,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-12",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 23,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "create-and-teach-module-5",
+        "title": "Interactive Media and Engagement",
+        "description": "Lay the groundwork with core concepts and practical examples. Dive into the essentials and build a strong creative foundation.",
+        "lessons": [
+          {
+            "id": "create-and-teach-lesson-13",
+            "title": "Interactive Media and Engagement",
+            "durationMinutes": 16,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-14",
+            "title": "Guided practical exercise",
+            "durationMinutes": 20,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-15",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 24,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      },
+      {
+        "id": "create-and-teach-module-6",
+        "title": "Project Showcase and Critique",
+        "description": "Explore thoughtful decisions, proven techniques, and hands-on exercises that help you apply what you learn.",
+        "lessons": [
+          {
+            "id": "create-and-teach-lesson-16",
+            "title": "Project Showcase and Critique",
+            "durationMinutes": 17,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-17",
+            "title": "Guided practical exercise",
+            "durationMinutes": 21,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          },
+          {
+            "id": "create-and-teach-lesson-18",
+            "title": "Put your knowledge into practice",
+            "durationMinutes": 25,
+            "videoUrl": "/assets/courses/videos/course-preview-demo.mp4"
+          }
+        ]
+      }
+    ]
+  }
+]
