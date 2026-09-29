@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "course-001-review-1",
+    "courseId": "course-001",
+    "author": {
+      "name": "PurePearl Studio",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-2",
+    "courseId": "course-001",
+    "author": {
+      "name": "Albert Flores",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-3",
+    "courseId": "course-001",
+    "author": {
+      "name": "Cody Fisher",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-4",
+    "courseId": "course-001",
+    "author": {
+      "name": "Brooklyn Simmons",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-5",
+    "courseId": "course-001",
+    "author": {
+      "name": "Sarah M.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-6",
+    "courseId": "course-001",
+    "author": {
+      "name": "James L.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-7",
+    "courseId": "course-001",
+    "author": {
+      "name": "Alex B.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-8",
+    "courseId": "course-001",
+    "author": {
+      "name": "Jamie Davis",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-9",
+    "courseId": "course-001",
+    "author": {
+      "name": "Taylor Reed",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 4,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-10",
+    "courseId": "course-001",
+    "author": {
+      "name": "Morgan Lee",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 4,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-11",
+    "courseId": "course-001",
+    "author": {
+      "name": "Sam Rivera",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 4,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-001-review-12",
+    "courseId": "course-001",
+    "author": {
+      "name": "Jordan Kim",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 3,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-1",
+    "courseId": "course-002",
+    "author": {
+      "name": "PurePearl Studio",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-2",
+    "courseId": "course-002",
+    "author": {
+      "name": "Albert Flores",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-3",
+    "courseId": "course-002",
+    "author": {
+      "name": "Cody Fisher",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-4",
+    "courseId": "course-002",
+    "author": {
+      "name": "Brooklyn Simmons",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-5",
+    "courseId": "course-002",
+    "author": {
+      "name": "Sarah M.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-6",
+    "courseId": "course-002",
+    "author": {
+      "name": "James L.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-7",
+    "courseId": "course-002",
+    "author": {
+      "name": "Alex B.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-8",
+    "courseId": "course-002",
+    "author": {
+      "name": "Jamie Davis",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-9",
+    "courseId": "course-002",
+    "author": {
+      "name": "Taylor Reed",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 4,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-10",
+    "courseId": "course-002",
+    "author": {
+      "name": "Morgan Lee",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 4,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-11",
+    "courseId": "course-002",
+    "author": {
+      "name": "Sam Rivera",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 4,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-002-review-12",
+    "courseId": "course-002",
+    "author": {
+      "name": "Jordan Kim",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 3,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-1",
+    "courseId": "course-003",
+    "author": {
+      "name": "PurePearl Studio",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-2",
+    "courseId": "course-003",
+    "author": {
+      "name": "Albert Flores",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-3",
+    "courseId": "course-003",
+    "author": {
+      "name": "Cody Fisher",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-4",
+    "courseId": "course-003",
+    "author": {
+      "name": "Brooklyn Simmons",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-5",
+    "courseId": "course-003",
+    "author": {
+      "name": "Sarah M.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-6",
+    "courseId": "course-003",
+    "author": {
+      "name": "James L.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-7",
+    "courseId": "course-003",
+    "author": {
+      "name": "Alex B.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-8",
+    "courseId": "course-003",
+    "author": {
+      "name": "Jamie Davis",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-9",
+    "courseId": "course-003",
+    "author": {
+      "name": "Taylor Reed",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 4,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-10",
+    "courseId": "course-003",
+    "author": {
+      "name": "Morgan Lee",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 4,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-11",
+    "courseId": "course-003",
+    "author": {
+      "name": "Sam Rivera",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 4,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-003-review-12",
+    "courseId": "course-003",
+    "author": {
+      "name": "Jordan Kim",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 3,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-1",
+    "courseId": "course-004",
+    "author": {
+      "name": "PurePearl Studio",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-2",
+    "courseId": "course-004",
+    "author": {
+      "name": "Albert Flores",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-3",
+    "courseId": "course-004",
+    "author": {
+      "name": "Cody Fisher",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-4",
+    "courseId": "course-004",
+    "author": {
+      "name": "Brooklyn Simmons",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-5",
+    "courseId": "course-004",
+    "author": {
+      "name": "Sarah M.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-6",
+    "courseId": "course-004",
+    "author": {
+      "name": "James L.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-7",
+    "courseId": "course-004",
+    "author": {
+      "name": "Alex B.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-8",
+    "courseId": "course-004",
+    "author": {
+      "name": "Jamie Davis",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-9",
+    "courseId": "course-004",
+    "author": {
+      "name": "Taylor Reed",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 4,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-10",
+    "courseId": "course-004",
+    "author": {
+      "name": "Morgan Lee",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 4,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-11",
+    "courseId": "course-004",
+    "author": {
+      "name": "Sam Rivera",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 4,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-004-review-12",
+    "courseId": "course-004",
+    "author": {
+      "name": "Jordan Kim",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 3,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-1",
+    "courseId": "course-005",
+    "author": {
+      "name": "PurePearl Studio",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-2",
+    "courseId": "course-005",
+    "author": {
+      "name": "Albert Flores",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-3",
+    "courseId": "course-005",
+    "author": {
+      "name": "Cody Fisher",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-4",
+    "courseId": "course-005",
+    "author": {
+      "name": "Brooklyn Simmons",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-5",
+    "courseId": "course-005",
+    "author": {
+      "name": "Sarah M.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-6",
+    "courseId": "course-005",
+    "author": {
+      "name": "James L.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-7",
+    "courseId": "course-005",
+    "author": {
+      "name": "Alex B.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-8",
+    "courseId": "course-005",
+    "author": {
+      "name": "Jamie Davis",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-9",
+    "courseId": "course-005",
+    "author": {
+      "name": "Taylor Reed",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 4,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-10",
+    "courseId": "course-005",
+    "author": {
+      "name": "Morgan Lee",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 4,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-11",
+    "courseId": "course-005",
+    "author": {
+      "name": "Sam Rivera",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 4,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-005-review-12",
+    "courseId": "course-005",
+    "author": {
+      "name": "Jordan Kim",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 3,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-1",
+    "courseId": "course-006",
+    "author": {
+      "name": "PurePearl Studio",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-2",
+    "courseId": "course-006",
+    "author": {
+      "name": "Albert Flores",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-3",
+    "courseId": "course-006",
+    "author": {
+      "name": "Cody Fisher",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-4",
+    "courseId": "course-006",
+    "author": {
+      "name": "Brooklyn Simmons",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-5",
+    "courseId": "course-006",
+    "author": {
+      "name": "Sarah M.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-6",
+    "courseId": "course-006",
+    "author": {
+      "name": "James L.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-7",
+    "courseId": "course-006",
+    "author": {
+      "name": "Alex B.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-8",
+    "courseId": "course-006",
+    "author": {
+      "name": "Jamie Davis",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-9",
+    "courseId": "course-006",
+    "author": {
+      "name": "Taylor Reed",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 4,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-10",
+    "courseId": "course-006",
+    "author": {
+      "name": "Morgan Lee",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 4,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-11",
+    "courseId": "course-006",
+    "author": {
+      "name": "Sam Rivera",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 4,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-006-review-12",
+    "courseId": "course-006",
+    "author": {
+      "name": "Jordan Kim",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 3,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-1",
+    "courseId": "course-007",
+    "author": {
+      "name": "PurePearl Studio",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-2",
+    "courseId": "course-007",
+    "author": {
+      "name": "Albert Flores",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-3",
+    "courseId": "course-007",
+    "author": {
+      "name": "Cody Fisher",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-4",
+    "courseId": "course-007",
+    "author": {
+      "name": "Brooklyn Simmons",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-5",
+    "courseId": "course-007",
+    "author": {
+      "name": "Sarah M.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-6",
+    "courseId": "course-007",
+    "author": {
+      "name": "James L.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-7",
+    "courseId": "course-007",
+    "author": {
+      "name": "Alex B.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-8",
+    "courseId": "course-007",
+    "author": {
+      "name": "Jamie Davis",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-9",
+    "courseId": "course-007",
+    "author": {
+      "name": "Taylor Reed",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 4,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-10",
+    "courseId": "course-007",
+    "author": {
+      "name": "Morgan Lee",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 4,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-11",
+    "courseId": "course-007",
+    "author": {
+      "name": "Sam Rivera",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 4,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-007-review-12",
+    "courseId": "course-007",
+    "author": {
+      "name": "Jordan Kim",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 3,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-1",
+    "courseId": "course-008",
+    "author": {
+      "name": "PurePearl Studio",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-2",
+    "courseId": "course-008",
+    "author": {
+      "name": "Albert Flores",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-3",
+    "courseId": "course-008",
+    "author": {
+      "name": "Cody Fisher",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-4",
+    "courseId": "course-008",
+    "author": {
+      "name": "Brooklyn Simmons",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-5",
+    "courseId": "course-008",
+    "author": {
+      "name": "Sarah M.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 5,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-6",
+    "courseId": "course-008",
+    "author": {
+      "name": "James L.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 5,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-7",
+    "courseId": "course-008",
+    "author": {
+      "name": "Alex B.",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 5,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-8",
+    "courseId": "course-008",
+    "author": {
+      "name": "Jamie Davis",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 5,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-9",
+    "courseId": "course-008",
+    "author": {
+      "name": "Taylor Reed",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/creator-pink-background.png"
+    },
+    "rating": 4,
+    "body": "The course provided me with a comprehensive understanding. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-10",
+    "courseId": "course-008",
+    "author": {
+      "name": "Morgan Lee",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-yellow-background.png"
+    },
+    "rating": 4,
+    "body": "This course transformed my approach to digital design. The combination of hands-on exercises and real-world examples made it a truly enriching experience. I'm excited to implement what I've learned!",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-11",
+    "courseId": "course-008",
+    "author": {
+      "name": "Sam Rivera",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-blue-shirt.png"
+    },
+    "rating": 4,
+    "body": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  },
+  {
+    "id": "course-008-review-12",
+    "courseId": "course-008",
+    "author": {
+      "name": "Jordan Kim",
+      "headline": "UI/UX Designer",
+      "avatar": "/assets/avatars/avatar-curly-hair.png"
+    },
+    "rating": 3,
+    "body": "The lessons on optimizing work for various platforms were particularly useful. The course adapts to the evolving creative landscape and keeps me engaged throughout.",
+    "createdAt": "2025-09-15T10:00:00.000Z"
+  }
+]
