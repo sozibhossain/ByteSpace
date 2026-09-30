@@ -40,7 +40,7 @@ export function ProgressStat() {
     </div>
   );
 }
-export function HappyStudents() {
+export function HappyStudents({ avatarCount }: { avatarCount?: number }) {
   return (
     <>
       <div>Happy Students</div>
@@ -48,7 +48,7 @@ export function HappyStudents() {
         4.5 (240) <span className="text-brand-blue">★</span>
       </small>
       <div className="mt-2">
-        <AvatarGroup overflow="2K+" />
+        <AvatarGroup overflow="2K+" count={avatarCount} />
       </div>
     </>
   );

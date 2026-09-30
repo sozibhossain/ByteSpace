@@ -52,7 +52,7 @@ export function AuthPage({ mode }: { mode: "login" | "register" }) {
                 ? "The registration process is straightforward, uncomplicated, and efficient, allowing users to sign up quickly, easily, and at no cost."
                 : "Experience a seamless and efficient sign-in process that grants you instant access to a world of knowledge."}
             </p>
-            <div className="auth-art" aria-hidden inert>
+            <div className="auth-art">
               <div className="auth-card-back">
                 <CourseArtwork index={1} />
               </div>
@@ -62,7 +62,7 @@ export function AuthPage({ mode }: { mode: "login" | "register" }) {
               <Shape file="shape-yellow-torus-arch" className="auth-ring" />
               <Shape eager file="shape-yellow-pyramid" className="auth-pyramid" />
               <Shape file="shape-white-spring" className="auth-spring" />
-              <div className="floating-stat">
+              <div className="floating-stat" aria-hidden>
                 <HappyStudents />
               </div>
             </div>
