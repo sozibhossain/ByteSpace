@@ -59,7 +59,7 @@ export function Footer() {
               <Link href="/information/privacy">Privacy Policy</Link> and consent to receive updates
               from our company.
             </p>
-            <p role="status">{message}</p>
+            {message && <p role="status">{message}</p>}
           </div>
           <nav aria-label="Footer" className="footer-links">
             {columns.map((column, i) => (

@@ -1,6 +1,35 @@
 # Design review
 
-Reviewed all nine 1440px reference PNGs in `public/website-figma/mockups`.
+## September 30 responsive review
+
+Reviewed the eight supplied desktop references and the shared home layout.
+Fixed course-card avatar overflow at intermediate widths, moved the two-column
+catalog breakpoint to 1100px, and stacked enrollment/auth/footer layouts at 1000px.
+Auth artwork now scales as a single composition and aligns equally on login and
+registration. Updated social icons, auth community styling, footer columns,
+404 sizing, card image proportions, and keyboard focus on white panels.
+
+Removed duplicated responsive declarations, an unnecessary nested badge override,
+unused motion/theme tokens and type export, and an empty footer status paragraph.
+TypeScript's unused-local and unused-parameter checks found no additional issues.
+
+Headless Chrome passed 176 route/viewport combinations: 11 routes at 320, 375,
+390, 540, 541, 768, 800, 801, 1000, 1001, 1024, 1100, 1101, 1280, 1440 and 1920px.
+No document overflow, checked panel overflow, broken images or uncaught page errors.
+Mobile menu/focus, search, filtering, pagination, video, lesson completion, reviews,
+creator follow, auth validation and 404 recovery passed interaction checks.
+Information pages and the Figma course also passed at 320, 768 and 1440px.
+Production build, lint, typecheck, formatting and all nine unit tests passed.
+
+This is not a verified 100% pixel match: the supplied desktop references have no
+mobile equivalents; the purple-sweater poster, gallery and several portraits are
+not standalone assets in the project. Current catalog data, pagination and demo
+behavior remain functional rather than copying inconsistent screenshot statistics.
+The complete auth ring is now supplied and installed; the older note below about
+its absence is superseded. Final screenshots are local ignored QA artifacts in
+`coverage/design-audit/`.
+
+Earlier review covered nine 1440px reference PNGs formerly in `public/website-figma/mockups`.
 Desktop references define the visual target; mobile and tablet behavior is inferred.
 
 ## Corrections

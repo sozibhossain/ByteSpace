@@ -136,6 +136,10 @@ button {
 .grid-blue :focus-visible {
   outline-color: white;
 }
+.auth-form-panel :focus-visible,
+.enrollment-card :focus-visible {
+  outline-color: var(--brand-blue);
+}
 ::selection {
   background: var(--brand-lime);
   color: var(--brand-black);
@@ -260,19 +264,19 @@ button {
 }
 .footer-main {
   display: grid;
-  grid-template-columns: 1.65fr 1fr;
-  gap: 100px;
-  padding-bottom: 110px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px;
+  padding-bottom: 130px;
 }
 .footer-newsletter > p {
   font-size: 13px;
-  margin: 18px 0 28px;
+  margin: 18px 0 44px;
   color: var(--text-slate);
 }
 .newsletter-form {
   display: flex;
   gap: 24px;
-  max-width: 520px;
+  max-width: 504px;
 }
 .newsletter-form input {
   border: 1px solid var(--border);
@@ -285,7 +289,7 @@ button {
   font-size: 11px !important;
   line-height: 1.7;
   max-width: 500px;
-  margin-top: 14px !important;
+  margin: 24px 0 0 !important;
 }
 .footer-links {
   display: grid;
@@ -293,6 +297,7 @@ button {
   gap: 20px;
   font-size: 13px;
   line-height: 2.9;
+  padding-top: 42px;
 }
 .footer-links a:hover {
   color: var(--brand-blue);
@@ -336,7 +341,7 @@ button {
   box-shadow: 0 14px 35px #2425280c;
 }
 .card-image {
-  aspect-ratio: 1.7;
+  aspect-ratio: 1.75;
   position: relative;
   border-radius: 14px;
   overflow: hidden;
@@ -398,6 +403,7 @@ button {
 }
 .card-students {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   align-items: center;
   margin-bottom: 14px;
@@ -414,6 +420,7 @@ button {
 }
 .avatar-group {
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   padding-left: 4px;
 }
@@ -909,6 +916,10 @@ button {
   top: 12.07cqw;
   right: -8.62cqw;
 }
+.feature-art-creator .feature-spring {
+  top: 11.2cqw;
+  right: 10cqw;
+}
 .feature-spring .shape-motion::after {
   content: "";
   position: absolute;
@@ -1162,7 +1173,6 @@ button {
 }
 .filter-control select {
   max-width: 165px;
-  outline: 0;
   background: transparent;
 }
 .catalog-body .category-pills {
@@ -1229,7 +1239,7 @@ button {
   gap: 16px;
   margin: 24px 0 56px;
 }
-.course-badges span {
+.course-badges > span {
   display: inline-flex;
   gap: 10px;
   align-items: center;
@@ -1563,70 +1573,92 @@ button {
 }
 .auth-layout {
   display: grid;
-  grid-template-columns: 1fr 580px;
+  grid-template-columns: minmax(0, 520fr) minmax(0, 580fr);
   gap: 100px;
   padding-top: 46px;
   align-items: start;
 }
+.auth-intro {
+  display: grid;
+  grid-template-rows: auto 86px auto;
+  gap: 16px;
+  min-width: 0;
+}
 .auth-intro h2 {
   font-family: var(--family-heading);
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
 }
 .auth-intro > p {
   font-size: 18px;
   line-height: 1.6;
-  margin-top: 16px;
   max-width: 480px;
 }
 .auth-art {
-  height: 590px;
+  aspect-ratio: 520 / 588;
+  container-type: inline-size;
   position: relative;
-  margin-top: 50px;
+  margin-top: 7px;
 }
 .auth-card-front {
   position: absolute;
-  width: 374px;
-  left: 110px;
-  top: 30px;
+  width: 71.92cqw;
+  left: 21.15cqw;
+  top: 5.77cqw;
   z-index: 2;
 }
 .auth-card-back {
   position: absolute;
-  width: 374px;
+  width: 71.92cqw;
   left: 0;
-  top: 120px;
+  top: 23.08cqw;
 }
 .auth-art .shape {
   z-index: 4;
 }
 /* Artwork offsets belong here rather than important utility overrides in JSX. */
 .auth-ring {
-  left: 32px;
-  top: 16px;
-  width: 160px;
-  height: 160px;
+  left: 5.77cqw;
+  top: 9.62cqw;
+  width: 28.27cqw;
+  height: 26.73cqw;
 }
 .auth-pyramid {
-  left: 0;
-  bottom: 0;
-  width: 160px;
-  height: 160px;
+  left: -4.23cqw;
+  bottom: -3.85cqw;
+  width: 36.54cqw;
+  height: 36.54cqw;
 }
 .auth-spring {
-  right: 0;
-  bottom: 80px;
-  width: 144px;
-  height: 160px;
+  right: -1.54cqw;
+  bottom: 13.46cqw;
+  width: 32.69cqw;
+  height: 36.54cqw;
 }
 .auth-art .floating-stat {
   bottom: 0;
-  right: 34px;
-  width: 258px;
+  right: 6.54cqw;
+  width: 49.62cqw;
   background: var(--brand-lime);
   pointer-events: none;
 }
+.auth-art .avatar-overflow {
+  background: var(--text-primary);
+  color: white;
+}
+.auth-art .card-rating svg {
+  fill: var(--brand-lime);
+}
+.auth-art .floating-stat .avatar-group img,
+.auth-art .floating-stat .avatar-overflow {
+  width: 7.31cqw;
+  height: 7.31cqw;
+  margin-left: -1.92cqw;
+}
 .auth-form-panel {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
   background: white;
   border-radius: 28px;
   padding: 60px 64px 40px;
@@ -1642,12 +1674,12 @@ button {
   font-weight: 600;
   font-size: 44px;
   line-height: 1.2;
-  margin: 8px 0 36px;
+  margin: 4px 0 36px;
   letter-spacing: -0.02em;
 }
 .form-field {
   display: block;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 .form-field > span {
   display: block;
@@ -1699,11 +1731,11 @@ button {
   border-radius: 24px;
   display: grid;
   place-items: center;
-  font-size: 36px;
-  font-weight: 700;
+  color: black;
 }
 .auth-switch {
-  margin-top: 72px;
+  margin-top: auto;
+  padding-top: 72px;
   text-align: center;
   color: var(--text-slate);
 }
@@ -1721,11 +1753,11 @@ button {
 }
 .not-found {
   text-align: center;
-  padding: 70px 0 125px;
+  padding: 32px 0 125px;
 }
 .not-found-number {
   font-family: var(--family-heading);
-  font-size: clamp(130px, 27vw, 380px);
+  font-size: clamp(130px, 33vw, 470px);
   font-weight: 600;
   line-height: 1;
   background: linear-gradient(var(--brand-lime) 40%, transparent);
@@ -1738,16 +1770,17 @@ button {
   line-height: 1.2;
   font-weight: 600;
   max-width: 1100px;
-  margin: -20px auto 40px;
+  margin: -100px auto 40px;
 }
 .not-found p {
-  margin-bottom: 44px;
+  margin-bottom: 24px;
   font-size: 18px;
 }
 
 /* Tablet and mobile behavior is inferred from desktop references. */
 @media (max-width: 1100px) {
   .course-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
   }
   .card-meta {
@@ -1796,9 +1829,56 @@ button {
   .auth-form-panel {
     padding: 48px 36px;
   }
+}
+/* Stack before the sidebar and auth illustration crowd their main content. */
+@media (max-width: 1000px) {
+  .footer-main {
+    grid-template-columns: minmax(0, 1fr);
+    padding-bottom: 60px;
+  }
+  .footer-links {
+    padding-top: 0;
+    max-width: 650px;
+  }
+  .course-media-row {
+    display: grid;
+    gap: 32px;
+  }
+  .course-preview,
+  .course-main {
+    width: 100%;
+  }
+  .enrollment-card {
+    position: static;
+    width: 100%;
+    padding: 30px;
+  }
+  .course-body {
+    min-height: 0;
+  }
+  .auth-layout {
+    grid-template-columns: minmax(0, 1fr);
+    padding-top: 35px;
+    max-width: 580px;
+    margin: auto;
+  }
+  .auth-intro {
+    grid-template-rows: auto auto;
+  }
   .auth-art {
-    transform: scale(0.8);
-    transform-origin: left center;
+    display: none;
+  }
+  .auth-form-panel {
+    min-height: 0;
+  }
+  .auth-intro > p {
+    max-width: 500px;
+  }
+  .rating-panel {
+    gap: 20px;
+  }
+  .not-found h1 {
+    margin-top: -40px;
   }
 }
 @media (max-width: 800px) {
@@ -1875,9 +1955,6 @@ button {
   .partner-logo {
     font-size: 18px;
   }
-  .course-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
   .card-meta {
     font-size: 10px;
   }
@@ -1928,53 +2005,14 @@ button {
   .testimonial blockquote {
     font-size: 16px;
   }
-  .footer-main {
-    gap: 40px;
-    grid-template-columns: 1fr;
-    padding-bottom: 60px;
-  }
-  .footer-links {
-    max-width: 650px;
-  }
   .course-title-row h1 {
     font-size: 30px;
   }
   .course-subtitle {
     font-size: 18px;
   }
-  .course-media-row {
-    display: grid;
-    gap: 32px;
-  }
-  .course-preview,
-  .course-main {
-    width: 100%;
-  }
-  .enrollment-card {
-    position: static;
-    width: 100%;
-    padding: 30px;
-  }
   .course-hero {
     padding-bottom: 40px;
-  }
-  .course-body {
-    min-height: 0;
-  }
-  .auth-layout {
-    grid-template-columns: 1fr;
-    padding-top: 35px;
-    max-width: 580px;
-    margin: auto;
-  }
-  .auth-art {
-    display: none;
-  }
-  .auth-form-panel {
-    min-height: 0;
-  }
-  .auth-intro > p {
-    max-width: 500px;
   }
   .auth-page {
     padding-bottom: 48px;
@@ -2085,9 +2123,6 @@ button {
   .pill {
     padding: 10px 14px;
     font-size: 12px;
-  }
-  .discover .course-grid {
-    margin-top: 0;
   }
   .course-grid {
     grid-template-columns: minmax(0, 1fr);
@@ -2241,7 +2276,7 @@ button {
     gap: 8px;
     margin-bottom: 32px;
   }
-  .course-badges span {
+  .course-badges > span {
     font-size: 12px;
     padding: 8px 12px;
     gap: 5px;
@@ -2353,7 +2388,7 @@ button {
     margin: 42px 0 30px;
   }
   .auth-switch {
-    margin-top: 40px;
+    padding-top: 40px;
   }
   .auth-intro > p {
     font-size: 16px;
