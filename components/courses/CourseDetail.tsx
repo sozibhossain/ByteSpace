@@ -64,7 +64,7 @@ export function CourseDetail({
             <div className="course-badges">
               <span>
                 <Signal size={20} aria-hidden />
-                <span className="!p-0 capitalize">{course.level}</span>
+                <span className="capitalize">{course.level}</span>
               </span>
               <span>
                 <Star size={20} fill="currentColor" aria-hidden />

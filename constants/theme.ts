@@ -1,5 +1,3 @@
-import { ANIMATION } from "./animations";
-
 /** Component variants reference CSS tokens; globals.css owns visual values. */
 export const THEME = {
   buttons: {
@@ -16,6 +14,4 @@ export const THEME = {
       lg: "min-h-14 px-8 text-base",
     },
   },
-  motion: { ...ANIMATION.reveal, ease: ANIMATION.ease },
 } as const;
-export type ThemeTokens = typeof THEME;
