@@ -9,11 +9,17 @@ import { MediaImage } from "@/components/ui/MediaImage";
 import { useCreators } from "@/hooks/use-catalog";
 
 /** Shared social proof is decorative; the visible overflow count has a text label. */
-export function AvatarGroup({ overflow = "26+" }: { overflow?: string }) {
+export function AvatarGroup({
+  overflow = "26+",
+  count = AVATARS.length,
+}: {
+  overflow?: string;
+  count?: number;
+}) {
   return (
     <div className="avatar-group" aria-label={`Learner community, ${overflow} more learners`}>
-      {AVATARS.map((src) => (
-        <Image key={src} src={src} alt="" width={32} height={32} />
+      {Array.from({ length: count }, (_, i) => (
+        <Image key={i} src={AVATARS[i % AVATARS.length]} alt="" width={32} height={32} />
       ))}
       <span className="avatar-overflow">{overflow}</span>
     </div>

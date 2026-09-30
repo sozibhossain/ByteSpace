@@ -8,7 +8,7 @@ import {
   Blocks,
   BriefcaseBusiness,
   Camera,
-  CheckCircle2,
+  Check,
   Code2,
   Cpu,
   Laptop,
@@ -50,7 +50,7 @@ const paths = [
 /** Marketing sections reuse visuals while keeping personal progress out of course data. */
 function Features() {
   return (
-    <section className="features">
+    <section className="features" id="features">
       <div className="container">
         <Reveal className="feature-row">
           <div className="feature-copy">
@@ -76,14 +76,19 @@ function Features() {
               </div>
             </div>
           </div>
-          <div className="feature-art" aria-hidden inert>
+          <div className="feature-art feature-art-student">
             <div className="mini-course">
               <CourseArtwork />
             </div>
             <div className="feature-person">
-              <Image src="/assets/hero/hero-student.png" alt="" fill sizes="550px" />
+              <Image
+                src="/assets/hero/hero-student.png"
+                alt=""
+                fill
+                sizes="(max-width: 800px) 90vw, 580px"
+              />
             </div>
-            <div className="floating-stat feature-progress">
+            <div className="floating-stat feature-progress" aria-hidden>
               <ProgressStat />
             </div>
             <Shape
@@ -93,24 +98,30 @@ function Features() {
           </div>
         </Reveal>
         <Reveal className="feature-row reverse">
-          <div className="feature-art" aria-hidden inert>
+          <div className="feature-art feature-art-creator" aria-hidden inert>
             <div className="floating-stat feature-revenue">
-              Total Revenue<small className="block !text-white">July 1–28</small>
+              Total Revenue<small className="feature-revenue-period">July 1–28</small>
               <strong>$120.29</strong>
               <div className="progress-track">
                 <div style={{ transform: "scaleX(0.55)" }} />
               </div>
             </div>
             <div className="floating-stat feature-revenue feature-revenue-secondary">
-              <small>Your Net Profit</small>
+              <span>Year to Date</span>
+              <small className="feature-revenue-period">2023</small>
               <strong>$1,200.38</strong>
-              <small>+15%</small>
+              <small className="feature-revenue-change">+12%</small>
             </div>
             <div className="feature-person">
-              <Image src="/assets/features/instructor-female.png" alt="" fill sizes="550px" />
+              <Image
+                src="/assets/features/instructor-female.png"
+                alt=""
+                fill
+                sizes="(max-width: 800px) 100vw, 600px"
+              />
             </div>
             <div className="floating-stat feature-happy">
-              <HappyStudents />
+              <HappyStudents avatarCount={7} />
             </div>
             <Shape file="shape-lime-squiggle-angled" className="feature-spring" />
           </div>
@@ -132,7 +143,7 @@ function Features() {
                 "Build a Community",
               ].map((item) => (
                 <li key={item}>
-                  <CheckCircle2 size={22} className="text-brand-blue" aria-hidden />
+                  <Check size={20} aria-hidden />
                   {item}
                 </li>
               ))}
